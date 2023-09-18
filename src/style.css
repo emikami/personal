@@ -82,9 +82,9 @@ h3 {
 }
 
 .call {
-    margin: -20vh 10vw 30vh;
-    font-size: small;
+    margin: -20vh 10vw 25vh;
     width: 40%;
+    font-size: small;
 }
 
 .call svg{
@@ -118,7 +118,7 @@ h3 {
 }
 
 .card {
-    
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     border-radius: 16px;
     text-align: center;
@@ -126,7 +126,7 @@ h3 {
 }
 
 .card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
 }
 
 .card img{
@@ -160,5 +160,11 @@ h3 {
     .card img {
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .call {
+        display: none;
     }
   }
